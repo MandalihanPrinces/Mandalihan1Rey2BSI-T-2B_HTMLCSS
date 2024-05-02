@@ -1,0 +1,442 @@
+/*External CSS*/
+
+/*Home*/
+body{
+	background-color: skyblue;
+	font-family: Century Gothic;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+div.wrapper{
+	background-color: white;
+	width: 1000px;
+	margin: 0 auto;
+	padding: 20px;
+	border-top: 10px solid gold;
+	border-bottom: 10px solid gold;
+}
+
+div.header {
+    padding: 20px;
+    width: 1000px;
+    overflow: hidden; 
+}
+
+div.header img {
+    max-width: 100%; 
+    height: auto;
+}
+
+}
+div.nav{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+div.nav ul{
+	margin: 0;
+	padding: 10px 0;
+}
+div.nav ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+div.nav ul li a{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-right: 10px;
+	padding: 10px;
+}
+div.nav ul li a.active{
+	color: #D35400;
+}
+div.nav ul li a:hover{
+	background-color: darkblue;
+	color: white;
+}
+div.banner, div.banner img{
+	width: 100%;
+	height: 250px;
+}
+div.main{
+	min-height: 500px;
+}
+div.left-side-bar{
+	width: 190px;
+	float: left;
+	border: 1px solid black;
+	min-height: 50px;
+	margin: 10px 10px 10px 0;
+}
+div.left-side-bar h2{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	text-transform: uppercase;
+	color: darkblue;
+}
+div.left-side-bar ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+div.left-side-bar ul li{
+	margin: 0;
+	text-align: center;
+	border-bottom: 1px solid white;
+}
+div.left-side-bar ul li a{
+	display: block;
+	width: 100%;
+	padding: 5px 0;
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+	background-color: darkblue;
+}
+div.left-side-bar ul li a:hover{
+	color: gold;
+}
+div.content{
+	width: 550px;
+	float: left;
+	min-height: 500px;
+	margin: 10px;
+}
+div.content h1{
+	padding: 0;
+	margin: 0;
+	color: darkblue;
+	font-size: 30px;
+	border-bottom: 1px dotted black;
+}
+div.content h2{
+	color: blue;
+}
+div.content p{
+	text-align: justify;
+	line-height: 1.5;
+	text-indent: 50px;
+}
+div.right-side-bar{
+	width: 215px;
+	float: right;
+	border: 1px solid black;
+	min-height: 50px
+	margin: 10px 10px 10px;
+}
+div.right-side-bar ul{
+	margin: 0;
+	padding: 20px;
+}
+div.right-side-bar ul li{
+	list-style-type: none;
+}
+div.right-side-bar ul li img{
+	width: 100%
+}
+div.footer{
+	clear: both;
+	border-top: 1px solid black;
+	padding: 10;
+	text-align: center;
+}
+div.footer{
+	font-weight: bold;
+}
+div.footer img{
+	margin: 0;
+	padding: 0;
+}
+
+/*About Us*/
+body{
+	background-color: skyblue;
+	font-family: Century Gothic;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+div.wrapper{
+	background-color: white;
+	width: 1000px;
+	margin: 0 auto;
+	padding: 20px;
+	border-top: 10px solid gold;
+	border-bottom: 10px solid gold;
+}
+
+div.header{
+	padding: 20px;
+}
+div.nav{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+div.nav ul{
+	margin: 0;
+	padding: 10px 0;
+}
+div.nav ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+div.nav ul li a{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-right: 10px;
+	padding: 10px;
+}
+div.nav ul li a.active{
+	color: #D35400;
+}
+div.nav ul li a:hover{
+	background-color: darkblue;
+	color: white;
+}
+
+div.class banner img{
+	max-width: 50;
+	height: auto;
+	border-radius: 5px;
+	box-shadow: 5px;
+}
+h1{
+	color: darkblue;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.founder {
+    display: flex;
+    align-items: flex-start;
+}
+
+.founder img {
+    width: 250px;
+    margin-right: 20px; 
+}
+
+
+.history h1 {
+	text-align: left;
+	color: darkblue;
+	font-size: 20px;
+}
+.history h1 p{
+	padding: 10;
+    margin: 10;
+    color: black;
+    font-size: 15px;
+    margin-right: 100px; 
+    justify-content: 100px;
+}
+
+.founder {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+}
+
+.founder-info {
+    position: relative;
+}
+
+.founder img {
+    width: 250px;
+    height: 150px;
+}
+
+.text-below-image {
+    position: absolute;
+    bottom: 50;
+    left: 0;
+    width: 100%;
+}
+
+.founders {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.founders-info {
+    position: relative;
+}
+
+.founders img {
+    width: 250px;
+    height: 150px;
+}
+
+.text-below-image {
+    position: absolute;
+    bottom: 50;
+    left: 0;
+    width: 100%;
+}
+
+.founders{
+	margin: 0;
+}
+div.Mission h1{
+	color: darkblue;
+}
+div.Mission h1 p{
+	text-align: justify;
+	line-height: 1.5;
+	text-indent: 10px;
+}
+div.Vision h1{
+	color: darkblue;
+}
+div.Vision h1 p{
+	text-align: justify;
+	line-height: 1.5;
+	text-indent: 10px;
+}
+
+/*Volunteer*/
+body{
+	background-color: skyblue;
+	font-family: Century Gothic;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+div.wrapper{
+	background-color: white;
+	width: 1000px;
+	margin: 0 auto;
+	padding: 20px;
+	border-top: 10px solid gold;
+	border-bottom: 10px solid gold;
+}
+
+div.header {
+    padding: 20px;
+    width: 1000px;
+    overflow: hidden; 
+}
+
+div.header img {
+    max-width: 100%; 
+    height: auto;
+}
+
+}
+div.nav{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+div.nav ul{
+	margin: 0;
+	padding: 10px 0;
+}
+div.nav ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+div.nav ul li a{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-right: 10px;
+	padding: 10px;
+}
+div.nav ul li a.active{
+	color: #D35400;
+}
+div.nav ul li a:hover{
+	background-color: darkblue;
+	color: white;
+}
+div.banner, div.banner img{
+	width: 100%;
+	height: 250px;
+}
+div.main{
+	min-height: 500px;
+}
+
+div.volunteer {
+    width: 95%; /* Change width to 100% */
+    float: left;
+    min-height: 500px;
+    margin: 10px;
+    text-align: center;
+}
+
+div.volunter h1 {
+    padding: 0;
+    margin: 0;
+    color: darkblue;
+    font-size: 30px;
+    border-bottom: 1px dotted black;
+    text-align: center;
+}
+div.volunteer h2{
+	color: blue;
+}
+div.volunteer p{
+	text-align: justify;
+	line-height: 1.5;
+	text-indent: 10px;
+}
+
+.volunteer {
+    margin: 20px; 
+}
+
+.volunteer h1 {
+    font-size: 24px;
+    color: darkblue;
+    margin-bottom: 10px; 
+}
+
+.volunteer h2 {
+    font-size: 20px;
+    color: blue;
+    margin-top: 20px;
+}
+
+.volunteer p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.volunteer #opportunities + p {
+    margin-bottom: 20px;
+}
+
+.volunteer #opportunities + p strong {
+    font-weight: bold;
+}
+
+.volunteer #opportunities + p span {
+    display: inline-block;
+    width: 120px;
+    font-weight: bold;
+}
+
+.volunteer #opportunities + p br {
+    display: block;
+    content: "";
+    margin-bottom: 10px;
+}
+
+.volunteer #opportunities + p strong::before {
+    content: "•"; 
+    margin-right: 5px;
+    font-weight: bold;
+    color: darkblue;
+}
